@@ -1,0 +1,105 @@
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	font-size: 32px;
+	margin: 20px auto 20px auto;
+	padding: 4px;
+	display: block;
+	border: none;
+	text-align: center;
+	width: 500px;
+	color: #232323;
+}
+
+#canvases {
+    margin: 0 auto;
+    display: block;
+    position: relative;
+}
+
+#canvases canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+table {
+	width: 828px;
+	margin: 5px auto;
+	border-collapse: collapse;
+	box-shadow: 0 3px 5px rgba(128, 128, 128, 0.4);
+}
+
+thead {
+	background-color: #00AA00;
+	color: white;
+}
+
+thead>tr>th {
+	padding: 8px 0;
+}
+
+tbody:before, tbody:after {
+	content: '';
+	display: block;
+	height: 5px;
+}
+
+td {
+	text-align: center;
+	padding: 3px 0;
+	font-size: 14px;
+}
+
+td>input, td>input:focus {
+	font-size: 14px;
+	padding: 2px;
+	border: none;
+	margin: 2px 0;
+	border-bottom: #AAA solid 1px;
+	text-align: center;
+	width: 50px;
+	outline: none;
+}
+
+.delete>button {
+	background-color: #FF1900;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.delete>button:hover {
+	background-color: #EE1900;
+}
+
+.buttonContainer {
+	width: 828px;
+	margin: 10px auto;
+}
+
+button {
+	background-color: #00AA00;
+	border: none;
+	padding: 7px 12px;
+	border-radius: 4px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 12px;
+	transition: background-color 0.25s
+}
+
+button:hover {
+	background-color: #009900;
+}
+
+button:focus {
+	outline: none;
+}
+
+span.checkbox {
+	font-size: 15px;
+	float: right;
+	padding: 3px
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+
+    <title>Jester Path Generator</title>
+
+    <script type='text/javascript' src='/js/script.js'></script>
+
+    <link rel='shortcut icon' href='/images/favicon.png'/>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet'>
+    <link href='/css/style.css' rel='stylesheet'>
+</head>
+<body>
+
+<h1>Jester Path Generator</h1>
+
+<div id="canvases">
+    <canvas id="background"></canvas>
+    <canvas id="field"></canvas>
+</div>
+
+<div id="waypoint-markers"></div>
+
+<div class="buttonContainer">
+    <button id="add-point-button" onclick="addWaypoint()">Add Point</button>
+    <button id="update-button" onclick="update()">Update</button>
+</div>
+
+<table oninput="update()">
+    <thead>
+    <tr>
+        <th>X</th>
+        <th>Y</th>
+        <th>Heading</th>
+        <th>Rotation</th>
+        <th>Delete</th>
+    </tr>
+    </thead>
+    <tbody id="waypoint-table"></tbody>
+</table>
+
+</body>
+</html>

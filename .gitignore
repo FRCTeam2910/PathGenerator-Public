@@ -1,0 +1,17 @@
+# Gradle files
+.gradle/
+build/
+
+# Intellij files
+.idea/
+out/
+
+# Eclipse files
+.classpath
+.project
+.settings/
+bin/
+
+# Vim files
+*.swp
+
